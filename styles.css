@@ -1,79 +1,65 @@
-/* RESET dasar untuk menghapus margin/padding bawaan browser */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Desain dasar body */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #e8e8e8;
   color: black;
 }
 
-/* HEADER & NAVBAR */
-/* Warna latar belakang bagian header */
 .header {
   background-color: #f5f5f5;
   padding: 10px 0;
 }
 
-/* Wrapper navbar */
 .navbar {
-  display: flex;                /* Biar logo dan menu berada 1 baris */
-  justify-content: space-between; /* Logo kiri, menu kanan */
+  display: flex;                
+  justify-content: space-between; 
   align-items: center;
-  padding: 0 40px;              /* Jarak kiri-kanan navbar */
+  padding: 0 40px;              
 }
 
-/* Logo text */
 .logo-text {
   font-size: 22px;
   font-weight: bold;
 }
 
-/* Warna teks highlight (FORTO FOLIO) */
 .highlight {
   color: blue;
 }
 
-/* Wrapper menu */
 .navbar-menu {
   display: flex;
 }
 
-/* Daftar menu */
 .menu-list {
   list-style: none;
   display: flex;
-  gap: 50px;                    /* Jarak antar menu */
+  gap: 50px;                
   align-items: center;
 }
 
-/* Icon home */
 .icon-home {
   width: 20px;
   margin-right: 8px;
   object-fit: cover;
 }
 
-/* Link menu */
 .menu-link {
-  text-decoration: none;        /* Hilangkan garis bawah */
+  text-decoration: none;       
   color: black;
-  display: flex;                /* Untuk align icon dan text */
+  display: flex;                
   align-items: center;
   font-size: 18px;
   font-family: "Times New Roman", Times, serif;
 }
 
-/* Hover menu */
 .menu-link:hover {
   color: blue;
 }
-
-/* HERO SECTION */
 
 .hero {
   margin: 100px;
@@ -81,12 +67,10 @@ body {
   align-items: center;
 }
 
-/* Kolom kiri hero */
 .hero-left {
   max-width: 650px;
 }
 
-/* Text utama */
 .hero-info h1 {
   font-size: 60px;
   font-family: "Times New Roman", Times, serif;
@@ -97,7 +81,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* MEDIA SOSIAL */
 .hero-social {
   display: flex;
   align-items: center;
@@ -105,7 +88,6 @@ body {
   margin-top: 15px;
 }
 
-/* Icon medsos */
 .hero-social i {
   padding: 8px;
   background-color: black;
@@ -115,7 +97,6 @@ body {
   transition: 0.3s;
 }
 
-/* Hover efek icon */
 .hero-social i:hover {
   background-color: blue;
 }
